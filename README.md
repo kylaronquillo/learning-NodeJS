@@ -1,84 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Node.js - Basic Informational Site</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
+<!-- Learning Node.js - Basic Informational Site README -->
 
-    h1, h2, h3 {
-      color: #333;
-    }
+# Learning Node.js - Basic Informational Site
 
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 4px;
-      border: 1px solid #ddd;
-    }
+## Project: Basic Informational Site
 
-    pre {
-      background-color: #f8f8f8;
-      padding: 10px;
-      border: 1px solid #ddd;
-      overflow: auto;
-    }
+1. Make a project directory and create the following files inside that directory:
+   - `index.html`
+   - `about.html`
+   - `contact-me.html`
+   - `404.html`
 
-    a {
-      color: #4078c0;
-    }
+2. Create your Node.js server file `index.js` and add the code needed to serve the right page according to the URL.
+   - `localhost:8080` should take users to `index.html`
+   - `localhost:8080/about` should take users to `about.html`
+   - `localhost:8080/contact-me` should take users to `contact-me.html`
+   - `404.html` should display any time the user tries to go to a page not listed above.
 
-    ul {
-      list-style-type: disc;
-    }
+## Project Structure
 
-    li {
-      margin-bottom: 5px;
-    }
+### HTML Files:
 
-    hr {
-      border: 1px solid #ddd;
-      margin-top: 20px;
-      margin-bottom: 30px;
-    }
-  </style>
-</head>
-<body>
+- `index.html`: The main page.
+- `about.html`: Page with information about the project.
+- `contact-me.html`: Page with contact information.
+- `404.html`: Page displayed for unrecognized URLs.
 
-  <h1>Learning Node.js - Basic Informational Site</h1>
+### Node.js Server:
 
-  <p>
-    Project: Basic Informational Site
-  </p>
+- `index.js`: Node.js server file to handle URL routing.
 
-  <h2>Project Structure</h2>
+## Usage
 
-  <p>
-    1. Make a project directory and create the following files inside that directory:
-  </p>
+Describe how to run the Node.js server and access the different pages.
 
-  <ul>
-    <li><code>index.html</code></li>
-    <li><code>about.html</code></li>
-    <li><code>contact-me.html</code></li>
-    <li><code>404.html</code></li>
-  </ul>
+## Example Node.js Code:
 
-  <p>
-    2. Create your Node.js server file <code>index.js</code> and add the code needed to serve the right page according to the URL.
-  </p>
-
-  <ul>
-    <li><code>localhost:8080</code> should take users to <code>index.html</code></li>
-    <li><code>localhost:8080/about</code> should take users to <code>about.html</code></li>
-    <li><code>localhost:8080/contact-me</code> should take users to <code>contact-me.html</code></li>
-    <li><code>404.html</code> should display any time the user tries to go to a page not listed above.</li>
-  </ul>
-
-</body>
-</html>
-
+```javascript
+// Your Node.js code example goes here
