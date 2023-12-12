@@ -28,12 +28,3 @@
 ### Node.js Server:
 
 - `index.js`: Node.js server file to handle URL routing.
-
-## Usage
-
-Describe how to run the Node.js server and access the different pages.
-
-## Example Node.js Code:
-
-```javascript
-// Your Node.js code example goes here
